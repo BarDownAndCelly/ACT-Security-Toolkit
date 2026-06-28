@@ -1,65 +1,89 @@
-# Insider Threat Use Cases
+# Insider Threat
 
-This section focuses on the use of AI-assisted investigations to identify, assess, and respond to insider risk activity.
+Insider threat investigations are fundamentally different from many other areas of cybersecurity. Rather than focusing solely on external attackers, investigators must evaluate the intersection of human behavior, business context, and technical evidence to determine whether activity represents legitimate work, negligence, policy violations, or malicious intent.
 
-Insider threat investigations often require analysts to evaluate user behavior, data access patterns, policy violations, and business context to determine risk and recommend response actions. These use cases demonstrate how AI can support investigators throughout the investigative lifecycle.
+AI can assist investigators by organizing evidence, identifying behavioral and technical risk indicators, correlating activity across multiple data sources, and generating structured investigative summaries. While AI can accelerate analysis and improve consistency, investigators remain responsible for validating evidence, understanding organizational context, and making risk-based decisions.
 
-## Topics Covered
+---
 
-* Insider Threat Investigations
-* Data Loss Prevention (DLP) Triage
-* Intellectual Property Theft
+## Common Investigation Scenarios
+
+This section contains examples covering common insider threat investigations, including:
+
+* Data Loss Prevention (DLP) Alert Triage
 * Data Exfiltration
+* Intellectual Property Theft
 * Departing Employee Risk
 * Privileged Access Abuse
 * AI Tool Misuse
 * Sensitive Data Access Monitoring
 * Behavioral Risk Analysis
 
-## Objectives
+---
 
-* Demonstrate practical AI-assisted investigative workflows
-* Improve consistency in analyst decision-making
-* Generate structured investigative summaries
-* Highlight behavioral and technical risk indicators
-* Support data protection and risk reduction efforts
-* Accelerate investigation and triage activities
+## How AI Can Help
 
-## Use Cases
+AI can assist insider threat investigators by:
+
+* Prioritizing high-risk alerts for investigation
+* Summarizing user activity across multiple data sources
+* Identifying behavioral and technical risk indicators
+* Correlating events across endpoint, identity, network, and cloud telemetry
+* Supporting consistent investigative documentation
+* Recommending investigative next steps
+* Generating executive-ready case summaries
+
+---
+
+## Investigation Use Cases
 
 ### DLP Alert Triage
 
-Review data movement events involving sensitive information and determine whether activity represents legitimate business use or potential data loss.
+Review data movement involving sensitive information to determine whether activity represents legitimate business operations or potential data loss.
 
 ### Data Exfiltration Investigation
 
-Analyze file transfers, downloads, cloud uploads, and removable media activity to identify potential unauthorized disclosure of company information.
+Analyze file transfers, cloud uploads, removable media activity, and external sharing events to identify potential unauthorized disclosure of company information.
 
 ### Intellectual Property Theft Investigation
 
-Assess indicators associated with intellectual property theft, unusual repository access, source code downloads, and sensitive information movement.
+Assess indicators associated with intellectual property theft, including unusual repository access, source code downloads, document access, and sensitive information movement.
 
 ### Departing Employee Risk Investigation
 
-Evaluate elevated risk indicators associated with employee resignations, including unusual access patterns, data movement, and potential intellectual property exposure.
+Evaluate elevated risk indicators associated with employee resignations, including unusual access patterns, increased file activity, policy violations, and potential intellectual property exposure.
 
 ### Privileged Access Abuse Investigation
 
-Identify potential misuse of administrative privileges, unauthorized access to sensitive systems, and abuse of trusted access.
+Identify potential misuse of administrative privileges, unauthorized access to sensitive systems, excessive permissions, and abuse of trusted access.
 
 ### AI Tool Misuse Investigation
 
-Assess the use of public and enterprise AI platforms for potential exposure of proprietary, confidential, or regulated information.
+Assess employee use of public and enterprise AI platforms for potential exposure of proprietary, confidential, regulated, or sensitive organizational information.
 
-## Each Use Case Includes
+---
+
+## What Each Use Case Includes
+
+Each investigation example is designed to demonstrate practical AI-assisted workflows and includes:
 
 * Investigation scenario
 * Example prompt
-* Example output
+* Example AI output
 * Risk assessment methodology
 * Recommended investigative actions
-* Operational value
+* Operational value and analyst considerations
+
+---
 
 ## Why AI Helps
 
-AI can rapidly summarize activity, identify risk indicators, correlate investigative findings, and generate repeatable investigative outputs while allowing analysts to focus on evidence validation, stakeholder coordination, and decision-making.
+Insider threat investigations often require analysts to correlate evidence from endpoint telemetry, identity systems, DLP solutions, email, cloud services, HR events, and business context before reaching a conclusion.
+
+AI can dramatically reduce the time required to organize evidence, summarize findings, identify investigative leads, and produce consistent documentation. This allows investigators to focus on understanding human behavior, validating evidence, assessing organizational context, and making informed risk decisions.
+
+---
+
+## Core Principle
+
+Insider threat is ultimately about people—not just technology. AI can assist investigators by organizing information and accelerating analysis, but human investigators remain responsible for understanding intent, evaluating context, protecting employee privacy, and ensuring investigative findings are supported by independently verified evidence.

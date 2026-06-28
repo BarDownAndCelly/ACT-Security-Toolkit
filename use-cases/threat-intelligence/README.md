@@ -1,10 +1,14 @@
 # Threat Intelligence
 
-This section focuses on the use of AI to support Cyber Threat Intelligence (CTI) activities, including threat actor analysis, threat landscape assessments, campaign analysis, intelligence reporting, and adversary behavior mapping.
+Cyber Threat Intelligence (CTI) enables organizations to understand who may target them, how attacks are conducted, why adversaries behave the way they do, and which threats present the greatest risk to business operations. Effective intelligence transforms raw information into actionable knowledge that supports strategic, operational, and tactical security decisions.
 
-Threat Intelligence helps organizations understand who is targeting them, how attacks are conducted, and which threats pose the greatest risk to business operations. AI can assist analysts by rapidly summarizing intelligence, identifying trends, correlating activity, and generating actionable reporting for technical and executive audiences.
+AI can assist intelligence analysts by rapidly organizing information from multiple sources, identifying trends, summarizing reporting, correlating observations, and mapping adversary behaviors to established frameworks. While AI can accelerate intelligence production, analysts remain responsible for validating sources, assessing credibility, understanding context, and producing actionable intelligence.
 
-## Topics Covered
+---
+
+## Common Intelligence Scenarios
+
+This section contains examples covering common threat intelligence activities, including:
 
 * Threat Landscape Analysis
 * Threat Actor Profiling
@@ -16,48 +20,68 @@ Threat Intelligence helps organizations understand who is targeting them, how at
 * Emerging Threat Assessments
 * Threat-Based Risk Analysis
 
-## Objectives
+---
 
-* Demonstrate AI-assisted threat intelligence workflows
-* Improve intelligence analysis consistency
-* Accelerate threat research and reporting
-* Identify relevant threat actors and attack trends
-* Support risk-based security decision-making
-* Translate intelligence into actionable security recommendations
-* Map adversary activity to established threat frameworks
+## How AI Can Help
 
-## Use Cases
+AI can assist threat intelligence analysts by:
+
+* Summarizing intelligence from multiple sources
+* Identifying trends across threat reporting
+* Correlating indicators and adversary behaviors
+* Mapping observed activity to MITRE ATT&CK and MITRE ATLAS
+* Generating intelligence summaries and executive briefings
+* Identifying defensive recommendations
+* Supporting strategic and operational risk assessments
+
+---
+
+## Intelligence Use Cases
 
 ### Threat Landscape Analysis
 
-Assess current cyber threats, identify major attack trends, and determine which threat actors and techniques present the greatest organizational risk.
+Assess current cyber threats, identify emerging attack trends, and determine which threat actors, campaigns, and techniques present the greatest organizational risk.
 
 ### Threat Actor Profile
 
-Analyze threat actor motivations, targeting patterns, operational behaviors, and tactics, techniques, and procedures (TTPs).
+Analyze threat actor motivations, targeting patterns, operational behaviors, capabilities, and tactics, techniques, and procedures (TTPs).
 
 ### Threat Campaign Analysis
 
-Review coordinated threat activity, identify common attack patterns, assess potential impact, and recommend defensive actions.
+Review coordinated threat activity, identify recurring attack patterns, assess potential business impact, and recommend defensive actions.
 
 ### MITRE ATT&CK Technique Mapping
 
-Map observed adversary activity to MITRE ATT&CK tactics and techniques to better understand attack progression, detection opportunities, and defensive priorities.
+Map observed adversary activity to MITRE ATT&CK tactics and techniques to better understand attack progression, identify detection opportunities, and prioritize defensive improvements.
 
 ### MITRE ATLAS Technique Mapping
 
-Analyze adversarial activity targeting AI systems and map observed behaviors to the MITRE ATLAS framework to identify risks, detection opportunities, and defensive controls.
+Analyze adversarial activity targeting AI systems and map observed behaviors to the MITRE ATLAS framework to identify AI-specific risks, detection opportunities, and defensive controls.
 
-## Each Use Case Includes
+---
+
+## What Each Use Case Includes
+
+Each intelligence example is designed to demonstrate practical AI-assisted workflows and includes:
 
 * Intelligence scenario
 * Example prompt
-* Example output
+* Example AI output
 * Threat assessment methodology
 * Framework mapping (where applicable)
 * Recommended defensive actions
-* Operational value
+* Operational value and analyst considerations
+
+---
 
 ## Why AI Helps
 
-AI can rapidly process large volumes of intelligence reporting, identify common themes across sources, summarize threat activity, correlate observations, map adversary behavior to established frameworks, and generate structured intelligence products. This allows analysts to spend more time validating findings, assessing relevance, and supporting security decision-making.
+Threat intelligence professionals often review hundreds of intelligence reports, vendor publications, threat advisories, vulnerability disclosures, malware analyses, and open-source research to understand an evolving threat landscape.
+
+AI can dramatically reduce the time required to summarize reporting, identify common themes, correlate adversary behaviors, and produce structured intelligence products. This allows analysts to spend more time validating sources, assessing credibility, identifying organizational relevance, and providing actionable intelligence to defenders.
+
+---
+
+## Core Principle
+
+Threat intelligence is more than collecting information—it is producing reliable, actionable knowledge. AI can accelerate research, correlation, and reporting, but intelligence professionals remain responsible for validating sources, assessing confidence, understanding adversary intent, and ensuring intelligence products support informed security decisions.

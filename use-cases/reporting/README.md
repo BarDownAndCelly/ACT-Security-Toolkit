@@ -1,10 +1,14 @@
 # Security Reporting
 
-This section focuses on using AI to transform technical security findings into clear, actionable communications for leadership, stakeholders, investigators, and business decision-makers.
+Effective cybersecurity depends not only on identifying threats but also on communicating findings clearly to the people responsible for making decisions. Security professionals must routinely translate complex technical investigations into reports that are meaningful to executives, legal teams, human resources, auditors, and other stakeholders.
 
-Security teams frequently need to communicate complex technical events to audiences with varying levels of technical expertise. Effective reporting helps organizations understand risk, support decision-making, coordinate response efforts, and document investigative outcomes.
+AI can assist by organizing investigative findings, summarizing technical evidence, tailoring communication for different audiences, and producing consistent documentation. While AI can significantly reduce the time required to prepare reports, security professionals remain responsible for validating findings, ensuring accuracy, and communicating organizational risk appropriately.
 
-## Topics Covered
+---
+
+## Common Reporting Scenarios
+
+This section contains examples covering common cybersecurity reporting needs, including:
 
 * Executive Incident Reporting
 * Board Risk Reporting
@@ -15,42 +19,64 @@ Security teams frequently need to communicate complex technical events to audien
 * Incident Status Updates
 * Risk Communication
 
-## Objectives
+---
 
-* Improve communication between technical and non-technical audiences
-* Reduce time spent creating reports and briefings
-* Standardize reporting formats
-* Highlight business risk and operational impact
-* Support informed decision-making during security events
-* Improve consistency across security communications
+## How AI Can Help
 
-## Use Cases
+AI can assist security teams by:
+
+* Summarizing complex investigations
+* Translating technical findings into business language
+* Tailoring reports for different audiences
+* Identifying key risks and operational impacts
+* Generating executive-ready briefings
+* Standardizing report formats
+* Improving consistency across security communications
+
+---
+
+## Reporting Use Cases
 
 ### Executive Incident Summary
 
-Convert technical incident details into concise executive-level summaries that communicate business impact, response actions, current status, and recommended leadership decisions.
+Convert technical investigation details into concise executive summaries that communicate business impact, response actions, current status, and recommended leadership decisions.
 
 ### Board Risk Summary
 
-Translate security findings into strategic risk reporting suitable for board members and executive leadership.
+Translate security findings into strategic risk assessments suitable for board members and executive leadership.
 
 ### SOC Daily Summary
 
-Consolidate operational security activity, investigations, alerts, and significant events into a concise summary for SOC leadership and security management.
+Consolidate operational security activity, investigations, alerts, metrics, and significant events into concise daily reports for SOC leadership.
 
 ### Insider Threat Case Summary
 
-Transform detailed investigative findings into stakeholder-ready reports for Security, Human Resources, Legal, and Leadership teams.
+Transform detailed investigative findings into stakeholder-ready reports for Security, Human Resources, Legal, Privacy, and Leadership teams.
 
-## Each Use Case Includes
+---
+
+## What Each Use Case Includes
+
+Each reporting example is designed to demonstrate practical AI-assisted workflows and includes:
 
 * Reporting scenario
 * Target audience
 * Example prompt
-* Example output
+* Example AI output
 * Business objectives
 * Communication strategy
+* Analyst considerations
+
+---
 
 ## Why AI Helps
 
-AI can rapidly summarize technical findings, identify key business impacts, tailor messaging to specific audiences, and generate consistent reporting outputs. This allows security teams to spend less time preparing reports and more time conducting investigations, managing incidents, and supporting business decision-making.
+Security professionals spend a significant amount of time documenting investigations, summarizing technical findings, and adapting communications for different audiences. These tasks are essential but often repetitive and time-consuming.
+
+AI can dramatically reduce the effort required to organize information, draft reports, identify business impacts, and tailor messaging while maintaining a consistent structure. This allows analysts and investigators to spend more time conducting investigations and advising stakeholders rather than formatting documentation.
+
+---
+
+## Core Principle
+
+The purpose of security reporting is not simply to document events—it is to enable informed decision-making. AI can improve the speed, consistency, and clarity of security communications, but security professionals remain responsible for validating findings, accurately representing risk, and ensuring reports reflect verified evidence and organizational context.

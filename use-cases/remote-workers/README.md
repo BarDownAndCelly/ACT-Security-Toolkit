@@ -1,10 +1,14 @@
 # Remote Worker Investigations
 
-This section focuses on the use of AI to assist investigators in identifying remote worker fraud, credential sharing, unauthorized third-party access, identity deception, and workforce integrity risks.
+Remote work has fundamentally changed how organizations hire, collaborate, and secure their workforce. While distributed teams offer tremendous flexibility, they also introduce new challenges involving identity verification, workforce integrity, credential misuse, unauthorized third-party access, and employment fraud.
 
-As organizations continue to adopt remote and hybrid work models, security, fraud, human resources, and insider threat teams face new challenges in validating worker identity, ensuring authorized access, and protecting sensitive business information. These use cases demonstrate how AI can support investigations involving remote employees, contractors, and third-party workers.
+AI can assist investigators by organizing authentication data, endpoint telemetry, behavioral indicators, and business context into structured investigative findings. While AI can accelerate investigations and improve consistency, investigators remain responsible for validating evidence, protecting employee privacy, and making informed risk decisions.
 
-## Topics Covered
+---
+
+## Common Investigation Scenarios
+
+This section contains examples covering common remote workforce investigations, including:
 
 * Remote Worker Fraud
 * Credential Sharing
@@ -15,42 +19,63 @@ As organizations continue to adopt remote and hybrid work models, security, frau
 * DPRK Remote Worker Activity
 * Intellectual Property Protection
 
-## Objectives
+---
 
-* Demonstrate AI-assisted workforce fraud investigations
-* Improve consistency in investigative decision-making
-* Identify indicators of unauthorized access and labor substitution
-* Generate structured investigative summaries
-* Support identity verification and workforce integrity efforts
-* Protect sensitive business information and intellectual property
+## How AI Can Help
 
-## Use Cases
+AI can assist investigators by:
+
+* Correlating authentication and endpoint activity
+* Identifying unusual work patterns and behavioral anomalies
+* Highlighting indicators of credential sharing
+* Detecting potential identity deception
+* Summarizing investigative findings
+* Recommending investigative next steps
+* Generating executive-ready investigation summaries
+
+---
+
+## Investigation Use Cases
 
 ### Credential Sharing Investigation
 
-Analyze authentication activity, device usage, and behavioral indicators to identify potential sharing of credentials between individuals.
+Analyze authentication events, device usage, network telemetry, and behavioral indicators to identify potential credential sharing between multiple individuals.
 
 ### Unauthorized Third-Party Access Investigation
 
-Assess whether another individual may be remotely accessing company resources or performing work on behalf of an employee without authorization.
+Assess whether another individual may be remotely accessing company resources or performing work on behalf of an authorized employee without approval.
 
 ### Remote Worker Fraud Investigation
 
-Evaluate indicators associated with employment fraud, identity deception, and misrepresentation of work location or worker identity.
+Evaluate indicators associated with employment fraud, identity deception, labor substitution, inconsistent work locations, and suspicious onboarding activity.
 
 ### DPRK Remote Worker Investigation
 
-Assess activity associated with known DPRK remote worker methodologies, including identity deception, laptop farm activity, remote administration software, source code targeting, and unauthorized access to sensitive resources.
+Assess activity associated with known DPRK remote worker methodologies, including identity deception, laptop farm activity, remote administration software, source code targeting, financial fraud indicators, and unauthorized access to sensitive resources.
 
-## Each Use Case Includes
+---
+
+## What Each Use Case Includes
+
+Each investigation example is designed to demonstrate practical AI-assisted workflows and includes:
 
 * Investigation scenario
 * Example prompt
-* Example output
+* Example AI output
 * Risk assessment methodology
 * Recommended investigative actions
-* Operational value
+* Operational value and analyst considerations
+
+---
 
 ## Why AI Helps
 
-AI can rapidly correlate authentication events, endpoint telemetry, behavioral indicators, identity verification concerns, and workforce activity to generate structured investigative assessments. This enables investigators to focus on evidence validation, stakeholder coordination, and risk management while maintaining consistency across investigations.
+Remote worker investigations often require investigators to correlate identity information, authentication logs, endpoint telemetry, HR records, collaboration platforms, and business context before determining whether suspicious activity represents legitimate work or potential fraud.
+
+AI can dramatically reduce the time required to organize evidence, summarize findings, identify investigative leads, and generate consistent documentation. This allows investigators to focus on validating evidence, understanding organizational context, and making informed workforce integrity decisions.
+
+---
+
+## Core Principle
+
+Remote worker investigations are ultimately about establishing trust in identity—not simply detecting suspicious logins. AI can accelerate evidence collection and analysis, but investigators remain responsible for validating identity, protecting employee privacy, preserving investigative integrity, and ensuring findings are supported by independently verified evidence.
