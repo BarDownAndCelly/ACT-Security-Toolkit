@@ -11,7 +11,6 @@
 .NOTES
     Author: J Moore
     Project: AI Security Prompt Playbook
-    License: MIT
 
 .LINK
     https://github.com/BarDownAndCelly/AI-Security-Prompt-Playbook
