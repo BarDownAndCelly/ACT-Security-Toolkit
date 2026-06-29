@@ -1,73 +1,114 @@
-# AI Security Prompt Playbook
+# ACT Security Toolkit
 
-A practical guide to applying AI prompt engineering techniques to real-world cybersecurity workflows.
+### Augmented Cognition Technologies
+### *Human Experience. AI Amplified.*
 
-This repository demonstrates how modern Large Language Models (LLMs) such as ChatGPT, Claude, and Gemini can augment—not replace—security professionals by accelerating investigations, improving consistency, and reducing repetitive work.
+The **ACT Security Toolkit** is an open-source collection of tools, prompts, automations, and practical guidance designed to help security professionals **build, operate, and mature Insider Threat programs**.
 
-The examples throughout this repository are grounded in realistic security scenarios and are designed for analysts, engineers, investigators, and defenders looking to integrate AI into their daily workflows.
+Built from real-world experience engineering Insider Threat capabilities, this toolkit focuses on applying modern AI, Microsoft security technologies, and automation to reduce repetitive work, improve consistency, and accelerate investigations—while keeping human expertise at the center of every decision.
 
-Whether you're new to prompt engineering or an experienced security practitioner, this repository is intended to provide practical, immediately applicable examples that can be adapted to real environments.
+Although Insider Threat is the primary focus, the toolkit also includes resources for Microsoft Graph, Microsoft Purview, PowerShell, Python, prompt engineering, reporting, and defensive security engineering.
 
----
-
-## Project Goals
-
-This repository aims to:
-
-* Teach practical prompt engineering through cybersecurity examples
-* Demonstrate responsible use of AI in security operations
-* Provide reusable prompts for common investigation workflows
-* Showcase prompt design patterns that improve AI performance
-* Create an open educational resource for AI-assisted cybersecurity.
+This project is intended for security analysts, Insider Threat investigators, Microsoft security administrators, engineers, architects, and leaders looking to responsibly integrate AI into modern security operations.
 
 ---
 
-## Prompt Engineering Techniques
+# Vision
 
-This repository includes examples of:
+The long-term vision of the ACT Security Toolkit is to become a comprehensive open-source resource for organizations at every stage of their Insider Threat journey.
 
-* Zero-Shot Prompting
-* One-Shot Prompting
-* Few-Shot Prompting
-* Chain-of-Thought Prompting
-* Prompt Templates
+Whether you're:
 
-Each section explains:
+- Learning what an Insider Threat program is
+- Building your first program
+- Expanding an existing capability
+- Administering Microsoft Purview
+- Automating repetitive workflows
+- Exploring responsible uses of AI in security
 
-* What the technique is
-* When to use it
-* Why it works
-* Cybersecurity examples
-* Advantages and limitations
+the ACT Security Toolkit is designed to provide practical, real-world resources that can immediately improve security operations.
 
 ---
 
-## Cybersecurity Use Cases
+# Project Goals
 
-Current examples include:
+The ACT Security Toolkit aims to:
 
-* Insider Threat Investigations
-* Incident Response
-* Threat Intelligence
-* Data Loss Prevention (DLP)
-* Microsoft Purview
-* Security Operations (SOC)
-* Executive Reporting
-* Security Awareness
-* Detection Engineering
-
-Additional use cases will continue to be added as the project grows.
+- Help organizations build and mature Insider Threat programs
+- Demonstrate practical uses of AI throughout the investigative lifecycle
+- Simplify Microsoft Purview administration and reporting
+- Provide reusable Microsoft Graph, PowerShell, and Python automation
+- Teach prompt engineering through realistic security scenarios
+- Share engineering practices used by modern security teams
+- Create an open educational resource for AI-assisted Insider Threat operations
 
 ---
 
-## Repository Structure
+# Core Focus Areas
+
+## Insider Threat
+
+- Program development
+- Investigative workflows
+- Risk indicators
+- Behavioral analysis
+- Case management
+- Reporting
+- Operational maturity
+
+## Microsoft Purview
+
+- Insider Risk Management
+- Data Loss Prevention (DLP)
+- Sensitivity Labels
+- Sensitive Information Types
+- Adaptive Protection
+- Communication Compliance
+- Audit
+- Configuration reporting
+
+## Microsoft Graph
+
+- Environment discovery
+- Identity reporting
+- User and group administration
+- Licensing insights
+- Automation
+
+## Security Automation
+
+- PowerShell
+- Python
+- Reporting
+- Configuration management
+- Workflow automation
+
+## AI & Prompt Engineering
+
+- Zero-Shot Prompting
+- One-Shot Prompting
+- Few-Shot Prompting
+- Chain-of-Thought Prompting
+- Prompt Templates
+- Investigation workflows
+- AI-assisted reporting
+- AI-assisted documentation
+
+---
+
+# Repository Structure
 
 ```text
-01-zero-shot/
-02-one-shot/
-03-few-shot/
-04-chain-of-thought/
-05-templates/
+prompt-engineering/
+├── 01-zero-shot/
+├── 02-one-shot/
+├── 03-few-shot/
+├── 04-chain-of-thought/
+└── 05-templates/
+
+automation/
+├── powershell/
+└── python/
 
 quick-reference/
 
@@ -81,52 +122,154 @@ use-cases/
 
 ---
 
-## Roadmap
+# Roadmap
 
-This repository is the educational foundation for a broader initiative focused on AI-assisted cybersecurity.
+The ACT Security Toolkit is actively expanding.
 
-The long-term vision for this project includes:
+Planned content includes:
 
-* AI investigation playbooks
-* Insider Threat Copilot concepts
-* Microsoft Purview automation
-* PowerShell and Python examples
-* Detection engineering workflows
-* Investigation report generation
-* Executive briefing assistants
-* AI agent examples
-* MCP integrations
-* Security workflow automation
+## Insider Threat
+
+- Program maturity guidance
+- Investigation playbooks
+- AI-assisted investigations
+- Risk scoring concepts
+- Reporting templates
+- Metrics and KPIs
+- Executive dashboards
+
+## Microsoft Graph
+
+- Environment discovery
+- Identity reporting
+- User administration
+- Group administration
+- Licensing insights
+
+## Microsoft Purview
+
+- Environment discovery
+- Configuration reporting
+- Health assessments
+- Policy exports
+- Backup automation
+
+## Insider Risk Management
+
+- Policy reporting
+- Indicator reporting
+- Alert triage
+- Investigation automation
+
+## Data Loss Prevention
+
+- Policy reporting
+- Rule exports
+- Configuration auditing
+
+## Security Automation
+
+- PowerShell toolkit
+- Python toolkit
+- Reporting automation
+- Investigation automation
+
+## Artificial Intelligence
+
+- Prompt engineering
+- AI investigation playbooks
+- AI-assisted report writing
+- AI-assisted policy review
+- AI agents
+- MCP integrations
+- Insider Threat copilots
 
 ---
 
-## Project Status
+# Guiding Principles
 
-This project is actively under development.
+The ACT Security Toolkit is built around five core principles.
 
-New prompt engineering techniques, cybersecurity workflows, AI automations, and investigative playbooks will be added over time as the project evolves.
+## Human-First Security
 
-Feedback and constructive discussion are always appreciated.
+AI augments defenders—it does not replace them.
 
-## Why AI?
+Human judgment, investigative integrity, and critical thinking always remain the final authority.
 
-Cybersecurity professionals spend a significant amount of time performing repetitive tasks such as summarizing investigations, writing reports, classifying alerts, reviewing telemetry, and translating technical findings for different audiences.
+## Practical Engineering
 
-Large Language Models can dramatically reduce that overhead, allowing analysts to spend more time on investigation and decision-making rather than documentation.
+Every prompt, script, and workflow should solve a real operational problem.
 
-This repository explores practical ways to integrate AI into existing cybersecurity workflows while keeping the human analyst at the center of every decision.
+Theory is valuable, but practical implementation is the goal.
 
-## Disclaimer
+## Secure by Design
 
-The prompts, examples, scripts, and workflows in this repository are provided for educational and defensive cybersecurity purposes. They are intended to demonstrate prompt engineering concepts and AI-assisted security workflows—not to replace professional judgment or established investigative processes.
+The toolkit emphasizes least privilege, defensive engineering, secure coding practices, and responsible AI usage.
 
-Before using AI in any security environment, you should:
+## Open Education
 
-* **Validate all inputs.** Never provide sensitive, regulated, or proprietary information to an AI service unless you are authorized to do so and your organization's policies permit it. Be mindful of personally identifiable information (PII), protected health information (PHI), intellectual property, credentials, and other confidential data.
+Knowledge should be shared.
 
-* **Validate all outputs.** AI-generated responses may contain inaccuracies, omissions, or hallucinations. Always verify recommendations, technical findings, code, and investigative conclusions before acting on them.
+The ACT Security Toolkit exists to help security professionals learn, build, improve, and contribute.
 
-* **Maintain investigative integrity.** AI can assist with documentation, summarization, analysis, and hypothesis generation, but investigators remain responsible for preserving evidence, maintaining chain of custody, documenting investigative steps, and ensuring findings are supported by independently verified evidence.
+## Continuous Improvement
 
-**Human expertise, critical thinking, and sound investigative practices should always remain at the center of cybersecurity decision-making.**
+Insider Threat programs mature over time.
 
+This toolkit is designed to grow alongside them.
+
+---
+
+# Why AI?
+
+Security professionals spend a significant amount of time performing repetitive tasks such as:
+
+- Reviewing telemetry
+- Writing reports
+- Summarizing investigations
+- Classifying alerts
+- Reviewing Microsoft Purview data
+- Preparing executive briefings
+- Creating investigation documentation
+
+Artificial intelligence has the potential to dramatically reduce that overhead.
+
+Rather than replacing investigators, AI enables security professionals to spend more time analyzing evidence, identifying risk, making informed decisions, and improving program maturity.
+
+The ACT Security Toolkit explores practical, responsible, and defensible ways to integrate AI into Insider Threat and Microsoft security workflows.
+
+As the project evolves, AI will become increasingly integrated throughout the toolkit—not as a replacement for human expertise, but as a trusted force multiplier for security professionals.
+
+---
+
+# Project Status
+
+🚧 **Actively Under Development**
+
+The ACT Security Toolkit is in active development.
+
+New prompt engineering examples, automation scripts, Microsoft Graph tooling, Microsoft Purview resources, Insider Threat playbooks, AI agents, reporting capabilities, and engineering guidance will continue to be added as the project evolves.
+
+Contributions, suggestions, discussions, and constructive feedback are always welcome.
+
+---
+
+# Disclaimer
+
+The prompts, scripts, workflows, examples, and guidance contained within this repository are provided for educational and defensive cybersecurity purposes.
+
+They are intended to demonstrate AI-assisted Insider Threat operations, Microsoft security engineering, prompt engineering, and automation techniques—not to replace professional judgment, organizational policy, legal guidance, or established investigative procedures.
+
+Before using AI within any security environment:
+
+- **Validate all inputs.** Never provide sensitive, regulated, proprietary, or otherwise protected information to an AI service unless authorized by your organization.
+
+- **Validate all outputs.** AI-generated content may contain inaccuracies, omissions, or hallucinations. Always independently verify recommendations, code, investigative findings, and technical conclusions.
+
+- **Preserve investigative integrity.** AI can assist with analysis, documentation, summarization, and hypothesis generation, but investigators remain responsible for evidence preservation, chain of custody, investigative documentation, and validating findings using independently verified evidence.
+
+---
+
+> **Human Experience. AI Amplified.**
+>
+> Building better Insider Threat programs—one investigation, one automation, and one prompt at a time.
