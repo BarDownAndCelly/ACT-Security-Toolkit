@@ -8,19 +8,60 @@ The goal is to demonstrate production-quality scripting that security engineers 
 
 ---
 
-## Planned Topics
+## Tentative Roadmap
 
-* Microsoft Graph Authentication
-* Microsoft Purview Administration
-* Insider Risk Management
-* Data Loss Prevention (DLP)
-* Sensitivity Labels
-* Sensitive Information Types
-* Adaptive Protection
-* Communication Compliance
-* Audit Log Collection
-* Configuration Reporting
-* Policy Export and Backup
+### Microsoft Graph
+
+* Get-MicrosoftGraphEnvironment.ps1 -Complete
+* Get-MicrosoftGraphLicensing.ps1
+* Get-MicrosoftGraphUsers.ps1
+* Get-MicrosoftGraphGroups.ps1
+
+### Microsoft Purview
+
+* Get-PurviewEnvironment.ps1
+* Get-PurviewConfiguration.ps1
+* Export-PurviewConfiguration.ps1
+
+### Data Loss Prevention (DLP)
+
+* Get-DlpPolicies.ps1
+* Get-DlpRules.ps1
+* Export-DlpPolicies.ps1
+
+### Insider Risk Management
+
+* Get-InsiderRiskSettings.ps1
+* Get-InsiderRiskPolicies.ps1
+* Get-InsiderRiskIndicators.ps1
+
+### Sensitivity Labels
+
+* Get-SensitivityLabels.ps1
+* Get-LabelPolicies.ps1
+
+### Sensitive Information Types
+
+* Get-SensitiveInformationTypes.ps1
+* Export-SensitiveInformationTypes.ps1
+
+### Adaptive Protection
+
+* Get-AdaptiveProtectionSettings.ps1
+
+### Communication Compliance
+
+* Get-CommunicationCompliancePolicies.ps1
+
+### Audit
+
+* Get-UnifiedAuditConfiguration.ps1
+* Search-UnifiedAuditLog.ps1
+
+### Reporting
+
+* Export-PurviewHealthReport.ps1
+* Export-PurviewConfigurationReport.ps1
 
 ---
 
@@ -35,6 +76,12 @@ Every PowerShell script in this repository is designed to include:
 * Production-quality formatting
 * Reusable functions
 * Practical examples
+
+---
+
+## Safety First
+
+Scripts in this repository are intentionally non-invasive by default. Unless explicitly documented otherwise, they do not install software, modify configurations, create or delete resources, or make changes to Microsoft 365 environments. Their primary purpose is to collect information, validate configurations, and assist security professionals in making informed decisions.
 
 ---
 
