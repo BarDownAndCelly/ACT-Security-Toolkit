@@ -1,3 +1,17 @@
+#
+# ACT Script Purpose
+#
+# Answers:
+#
+#   • What Microsoft licenses are assigned to this tenant?
+#
+#   • Which Microsoft products are currently licensed?
+#
+#   • Is the tenant ready for additional Microsoft security
+#     assessments and automation?
+#
+
+
 <#
 .SYNOPSIS
     Retrieves Microsoft 365 licensing information for the connected tenant.

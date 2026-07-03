@@ -55,7 +55,7 @@ This script establishes the baseline connectivity required before using many of 
 ## Microsoft Graph
 
 - ✅ Get-MicrosoftGraphEnvironment.ps1
-- Get-MicrosoftGraphLicensing.ps1
+- ✅ Get-MicrosoftGraphLicensing.ps1
 - Get-MicrosoftGraphUsers.ps1
 - Get-MicrosoftGraphGroups.ps1
 

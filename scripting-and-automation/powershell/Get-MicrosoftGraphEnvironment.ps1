@@ -1,3 +1,17 @@
+
+#
+# ACT Script Purpose
+#
+# Answers:
+#
+#   • Is my local PowerShell environment ready for Microsoft Graph?
+#
+#   • Can I successfully authenticate to Microsoft Graph?
+#
+#   • Can I retrieve basic tenant information required for
+#     subsequent ACT automation?
+#
+
 <#
 .SYNOPSIS
     Validates the local Microsoft Graph PowerShell environment for the
