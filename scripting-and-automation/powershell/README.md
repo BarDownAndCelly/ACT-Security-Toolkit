@@ -61,8 +61,8 @@ This script establishes the baseline connectivity required before using many of 
 
 ## Microsoft Purview
 
-- Get-PurviewEnvironment.ps1
-- Get-PurviewConfiguration.ps1
+- ✅ Get-PurviewEnvironment.ps1
+- ✅ Get-PurviewConfiguration.ps1
 - Export-PurviewConfiguration.ps1
 
 ## Data Loss Prevention (DLP)
