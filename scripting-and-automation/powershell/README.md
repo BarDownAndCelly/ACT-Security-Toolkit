@@ -67,7 +67,7 @@ This script establishes the baseline connectivity required before using many of 
 
 ## Data Loss Prevention (DLP)
 
-- Get-DlpPolicies.ps1
+- ✅ Get-DlpPolicies.ps1
 - Get-DlpRules.ps1
 - Export-DlpPolicies.ps1
 
@@ -79,7 +79,7 @@ This script establishes the baseline connectivity required before using many of 
 
 ## Sensitivity Labels
 
-- Get-SensitivityLabels.ps1
+- ✅ Get-SensitivityLabels.ps1
 - Get-LabelPolicies.ps1
 
 ## Sensitive Information Types
