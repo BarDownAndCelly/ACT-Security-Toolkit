@@ -96,28 +96,37 @@ The ACT Security Toolkit aims to:
 # Repository Structure
 
 ```text
-prompt-engineering/
-├── 01-zero-shot/
-├── 02-one-shot/
-├── 03-few-shot/
-├── 04-chain-of-thought/
-└── 05-templates/
-
-automation/
-├── powershell/
-└── python/
+docs/
 
 quick-reference/
 
+training/
+├── prompt-engineering/
+└── insider-threat-fundamentals/
+
+scripting-and-automation/
+├── powershell/
+│   ├── data/
+│   ├── Get-MicrosoftGraphEnvironment.ps1
+│   ├── Get-MicrosoftGraphLicensing.ps1
+│   ├── Get-PurviewEnvironment.ps1
+│   ├── Get-PurviewConfiguration.ps1
+│   ├── Get-DlpPolicies.ps1
+│   ├── Get-SensitivityLabels.ps1
+│   └── ...
+└── python/
+
 use-cases/
-├── insider-threat/
-├── incident-response/
-├── threat-intelligence/
-├── remote-workers/
-└── reporting/
+├── Insider Threat/
+├── Incident Response/
+├── Microsoft 365/
+├── RemoteWorkers/
+├── Reporting/
+└── ThreatIntel/
 ```
 
 ---
+
 
 # Roadmap
 
