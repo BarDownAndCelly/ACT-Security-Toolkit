@@ -69,6 +69,26 @@ This script is read-only and does not modify tenant configuration.
 #endregion
 #region Private Functions
 
+function Write-Inventory {
+
+    param(
+        [string]$Message,
+        [ConsoleColor]$ForegroundColor
+    )
+
+    if ($PassThru) {
+        return
+    }
+
+    if ($PSBoundParameters.ContainsKey('ForegroundColor')) {
+        Write-Inventory $Message -ForegroundColor $ForegroundColor
+    }
+    else {
+        Write-Inventory $Message
+    }
+
+}
+
 function Get-DlpPolicyInventory {
 
     <#
@@ -106,19 +126,19 @@ function Get-DlpPolicyInventory {
 #endregion
 #region Main
 
-Write-Host "Microsoft Purview DLP Policy Inventory" -ForegroundColor Cyan
-Write-Host "======================================" -ForegroundColor Cyan
-Write-Host
+Write-Inventory "Microsoft Purview DLP Policy Inventory" Cyan
+Write-Inventory "======================================" Cyan
+Write-Inventory ""
 
 try {
 
     $Policies = @(Get-DlpPolicyInventory)
-    Write-Host "Policies Found : $($Policies.Count)"
-    Write-Host
+    Write-Inventory "Policies Found : $($Policies.Count)"
+    Write-Inventory
 
     foreach ($Policy in $Policies) {
 
-        Write-Host "------------------------------------------------------------"
+        Write-Inventory "------------------------------------------------------------"
         Write-Host "Priority : $($Policy.Priority)"
         Write-Host "Name     : $($Policy.Name)"
         Write-Host "Enabled  : $($Policy.Enabled)"

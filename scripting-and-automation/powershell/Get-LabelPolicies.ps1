@@ -7,6 +7,16 @@
 #   • Which sensitivity labels are published by each policy?
 #   • Which policy settings are configured?
 #
+
+#Requires -Version 7.4
+
+[CmdletBinding()]
+param(
+    [switch]$PassThru
+)
+
+Set-StrictMode -Version Latest
+
 function Get-LabelPolicyInventory {
 
     <#
@@ -56,9 +66,9 @@ function Get-LabelPolicyInventory {
 
 #region Main
 
-Write-Host "Microsoft Purview Sensitivity Label Policy Inventory" -ForegroundColor Cyan
-Write-Host "===================================================" -ForegroundColor Cyan
-Write-Host
+Write-Inventory "Microsoft Purview Sensitivity Label Policy Inventory" -ForegroundColor Cyan
+Write-Inventory "===================================================" -ForegroundColor Cyan
+Write-Inventory
 
 try {
 
@@ -70,47 +80,47 @@ try {
     $EnforceCount = @($Policies | Where-Object Mode -eq "Enforce").Count
     $TestCount    = @($Policies | Where-Object Mode -like "Test*").Count
 
-    Write-Host "Label Policies Found : $($Policies.Count)"
-    Write-Host
+    Write-Inventory "Label Policies Found : $($Policies.Count)"
+    Write-Inventory
 
-    Write-Host "Summary" -ForegroundColor Yellow
-    Write-Host "-------"
-    Write-Host "Enabled Policies : $EnabledCount"
-    Write-Host "Disabled Policies: $DisabledCount"
-    Write-Host
-    Write-Host "Enforced Policies: $EnforceCount"
-    Write-Host "Test Policies    : $TestCount"
-    Write-Host
+    Write-Inventory "Summary" -ForegroundColor Yellow
+    Write-Inventory "-------"
+    Write-Inventory "Enabled Policies : $EnabledCount"
+    Write-Inventory "Disabled Policies: $DisabledCount"
+    Write-Inventory
+    Write-Inventory "Enforced Policies: $EnforceCount"
+    Write-Inventory "Test Policies    : $TestCount"
+    Write-Inventory
 
     foreach ($Policy in $Policies) {
 
-        Write-Host "------------------------------------------------------------"
-        Write-Host "Priority        : $($Policy.Priority)"
-        Write-Host "Policy Name     : $($Policy.Name)"
-        Write-Host "Enabled         : $(if($Policy.Enabled){'Yes'}else{'No'})"
-        Write-Host "Mode            : $($Policy.Mode)"
-        Write-Host "Status          : $($Policy.Status)"
-        Write-Host
+        Write-Inventory "------------------------------------------------------------"
+        Write-Inventory "Priority        : $($Policy.Priority)"
+        Write-Inventory "Policy Name     : $($Policy.Name)"
+        Write-Inventory "Enabled         : $(if($Policy.Enabled){'Yes'}else{'No'})"
+        Write-Inventory "Mode            : $($Policy.Mode)"
+        Write-Inventory "Status          : $($Policy.Status)"
+        Write-Inventory
 
-        Write-Host "Published Labels"
-        Write-Host "----------------"
+        Write-Inventory "Published Labels"
+        Write-Inventory "----------------"
 
         foreach ($Label in ($Policy.Labels -split ", ")) {
-            Write-Host "  • $Label"
+            Write-Inventory "  • $Label"
         }
 
-        Write-Host
-        Write-Host "Created By      : $($Policy.CreatedBy)"
-        Write-Host "Modified By     : $($Policy.ModifiedBy)"
-        Write-Host "Created         : $($Policy.Created.ToString('yyyy-MM-dd HH:mm:ss'))"
-        Write-Host "Modified        : $($Policy.Modified.ToString('yyyy-MM-dd HH:mm:ss'))"
-        Write-Host
+        Write-Inventory
+        Write-Inventory "Created By      : $($Policy.CreatedBy)"
+        Write-Inventory "Modified By     : $($Policy.ModifiedBy)"
+        Write-Inventory "Created         : $($Policy.Created.ToString('yyyy-MM-dd HH:mm:ss'))"
+        Write-Inventory "Modified        : $($Policy.Modified.ToString('yyyy-MM-dd HH:mm:ss'))"
+        Write-Inventory
 
         if (![string]::IsNullOrWhiteSpace($Policy.Comment)) {
-            Write-Host "Comment"
-            Write-Host "-------"
-            Write-Host $Policy.Comment
-            Write-Host
+            Write-Inventory "Comment"
+            Write-Inventory "-------"
+            Write-Inventory $Policy.Comment
+            Write-Inventory
         }
 
     }
