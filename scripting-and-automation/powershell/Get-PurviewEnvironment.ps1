@@ -50,7 +50,12 @@
 #Requires -Version 7.4
 
 [CmdletBinding()]
-param ()
+[CmdletBinding()]
+param(
+
+    [switch]$PassThru
+
+)
 
 Set-StrictMode -Version Latest
 
@@ -144,7 +149,10 @@ Install-Module $Module -Scope CurrentUser
 function Connect-Purview {
 
     [CmdletBinding()]
-    param ()
+    param(
+    [switch]$PassThru
+
+)
 
     Write-Verbose "Checking Microsoft Purview connection..."
 
@@ -291,6 +299,10 @@ $Results = [PSCustomObject]@{
         "Environment ready for ACT Microsoft Purview automation."
     )
 
+}
+
+if ($PassThru) {
+    return $Results
 }
 
 $Results

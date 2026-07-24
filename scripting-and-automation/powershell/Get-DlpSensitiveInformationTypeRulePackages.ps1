@@ -7,6 +7,13 @@
 #   • Who published each rule package?
 #   • Which rule package versions are deployed?
 #
+[CmdletBinding()]
+param(
+
+    [switch]$PassThru
+
+)
+
 #region Private Functions
 
 function Get-DlpSensitiveInformationTypeRulePackageInventory {

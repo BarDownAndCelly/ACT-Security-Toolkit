@@ -81,10 +81,10 @@ function Write-Inventory {
     }
 
     if ($PSBoundParameters.ContainsKey('ForegroundColor')) {
-        Write-Inventory $Message -ForegroundColor $ForegroundColor
+        Write-Host $Message -ForegroundColor $ForegroundColor
     }
     else {
-        Write-Inventory $Message
+        Write-Host $Message
     }
 
 }
